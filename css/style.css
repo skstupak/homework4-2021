@@ -34,7 +34,8 @@ body{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #DDDDDD;
+  background-color:  #DDDDDD;
+  
 
 
   /*Req 1*/
@@ -80,7 +81,7 @@ td{
   border-top: 2px solid #000000;
   padding: 10px;
   border-collapse: separate;
-
+  vertical-align: middle;
 }
 
 
@@ -92,22 +93,28 @@ td{
   margin: auto;
   background-color: #7e0825;
   text-transform: uppercase;
+  
 }
 
 .rowhead{
   border-top: 2px solid #000000;
-  
+  border-right: 2px solid #000000;
+  padding: 10px;
+  vertical-align: middle;
+  text-align: center;
 }
 
 
 table{
-    border: 5px solid #000000;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border-collapse: separate;
-    border-radius: 50px;
+  border: 5px solid #000000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  border-collapse: separate;
+  border-radius: 50px;
     
 }
 
@@ -141,7 +148,6 @@ tr:nth-child(odd) {
 tr:hover {
   background-color: #7e0825;
   opacity: .25;
-  
 }
 
 footer{
@@ -150,4 +156,9 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  
 }
