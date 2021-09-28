@@ -73,7 +73,6 @@ a{
   border-style: dashed;
   border-width: 3px;
   border-color: #417243;
-
 }
 
 td{
@@ -83,10 +82,7 @@ td{
   padding-right:10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  border-collapse: separate;
   vertical-align: middle;
- 
- 
 }
 
 
@@ -97,8 +93,8 @@ td{
   text-align: center;
   margin: auto;
   background-color: #7e0825;
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
+  vertical-align: middle; 
 }
 
 .rowhead{
@@ -118,9 +114,7 @@ table{
   margin-top: auto;
   margin-bottom: auto;
   width: 100%;
-  border-collapse: separate;
-  border-radius: 50px;
-    
+  border-radius: 50px; 
 }
 
 /* I gave you the selector, but not the property-value pair. 
@@ -150,9 +144,8 @@ tr:nth-child(odd) {
   background-color: transparent;
 }
 
-tr:hover {
-  background-color: #7e0825;
-  opacity: .25;
+tbody tr:hover {
+  background-color: rgba(126, 8, 37, .25);
 }
 
 footer{
@@ -164,6 +157,4 @@ footer{
   position: fixed;
   left: 0;
   bottom: 0;
-  
-  
 }
